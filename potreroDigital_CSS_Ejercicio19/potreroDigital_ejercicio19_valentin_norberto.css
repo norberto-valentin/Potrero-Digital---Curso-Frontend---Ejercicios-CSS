@@ -1,0 +1,39 @@
+
+
+
+#master{
+  display: flex;
+  box-sizing: border-box;
+  width: 80vw;
+  height: 100vh;
+  flex-direction: column;
+  margin: 20vh;
+  margin-top: 1vw;
+}
+
+
+.primero{
+  display: flex;
+  width: 40vw;
+  height: 55vh;
+  flex-direction: column;
+  padding-right: 5%;
+}
+
+section{
+  display: flex;
+}
+
+
+#02{
+  display:
+}
+
+#01{
+  padding: 5%;
+}
+
+#03{
+  width: 20vw;
+  margin-right: 0;
+}

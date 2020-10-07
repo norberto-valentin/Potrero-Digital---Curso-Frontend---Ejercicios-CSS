@@ -1,0 +1,95 @@
+
+*{
+  display: flex;
+  box-sizing: border-box;
+}
+body{
+  flex-direction: column;
+  background-color: #ff9900;
+}
+
+header {
+  background-color: red;
+  height: 15vh;
+  width: 100vw;
+  margin-bottom: 10px;
+}
+
+#logo{
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 25%;
+}
+
+#menu{
+  height: 100%;
+  width: 75%;
+}
+
+.pestaña{
+    height: 100%;
+    width: 20%;
+    background-color: gray;
+    margin-left: 2%;
+}
+
+#banner{
+  background-color: green;
+  width: 100vw;
+  height: 65vh;
+  margin-bottom: 10px;
+}
+
+main{
+  background-color: blue;
+  height: 100vh;
+  width: 100vw;
+  margin-bottom: 10px;
+}
+
+#galeria{
+  width: 100%;
+  height: 100%;
+  flex-direction: column-reverse;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.contenido{
+  background-color: gray;
+  height: 22%;
+  width: 40%;
+  margin: 10px;
+
+}
+
+footer{
+  background-color: green;
+  height: 15vh;
+  width: 100vw;
+}
+
+@media (max-width: 640px){
+#galeria{
+  flex-direction: column;
+  flex-flow: column;
+}
+
+.contenido{
+  background-color: #991f00;
+  margin: 5px;
+  width: 100%;
+  height: 12%
+}
+
+#logo{
+  background-color: white;
+}
+
+#menu{
+  display: none;
+}
+}
