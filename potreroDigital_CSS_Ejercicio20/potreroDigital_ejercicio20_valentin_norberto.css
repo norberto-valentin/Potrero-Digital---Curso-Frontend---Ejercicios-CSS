@@ -1,0 +1,18 @@
+*{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+div{
+  width: 860px;
+}
+
+img{
+  width: 860px;
+  height: 707px;
+}
+
+#subtitulo{
+  align-self: flex-start;
+}
